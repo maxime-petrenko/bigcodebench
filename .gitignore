@@ -24,6 +24,12 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+*.safetensors
+unsloth_compiled_cache/
+models/
+
+
 MANIFEST
 
 # PyInstaller
