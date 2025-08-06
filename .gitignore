@@ -173,6 +173,6 @@ backup/
 passrate.p*
 min_cov_dir/
 bigcodebench/_version.py
-*.jsonl
+# .jsonl
 inspect/
 *.zip

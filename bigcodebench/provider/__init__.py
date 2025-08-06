@@ -1,13 +1,25 @@
 
-from bigcodebench.provider.refinement import RefinementDecoder
+from bigcodebench.provider.base import RefinementDecoderBase
 
 
-def make_model() -> RefinementDecoder:
-    """
-    Factory function to create a RefinementDecoder instance.
-    This is a placeholder for the actual implementation.
-    """
-    return RefinementDecoder()
+# def make_model(model: str, backend: str) -> RefinementDecoderBase:
+#     """
+#     Factory function to create a RefinementDecoder instance.
+#     This is a placeholder for the actual implementation.
+#     """
+#     # return RefinementDecoder()
+
+#     if backend == "refinement_vllm":
+#         from bigcodebench.provider.refinement_vllm import VllmDecoder
+#         return VllmDecoder(model)
+
+#     elif backend == "refinement_unsloth":
+#         from bigcodebench.provider.refinement_unsloth import UnslothDecoder
+#         return UnslothDecoder(model)
+    
+#     elif backend == "refinement_acc":
+#         from bigcodebench.provider.refinement_acc import AccDecoder
+#         return AccDecoder(model)
 
 
 
